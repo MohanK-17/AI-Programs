@@ -59,7 +59,7 @@ prior_spam = spam_count / total_messages
 prior_ham = ham_count / total_messages
 
 # Input text to classify
-input_text = "You've won a free vacation!"
+input_text = input("Enter the fact:")
 
 # Tokenize and process the input text
 input_words = re.findall(r"\w+", input_text.lower())
