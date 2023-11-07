@@ -16,6 +16,7 @@ def bfs(graph, start):
 
 if __name__ == "__main__":
     graph = {0: [1, 2], 1: [2], 2: [0, 3], 3: [3]}
+    n=int(input("enter the node:"))
 
-    print("BFS starting from 2")
-    bfs(graph, 2)
+    print(f"BFS starting from {n}")
+    bfs(graph, n)
